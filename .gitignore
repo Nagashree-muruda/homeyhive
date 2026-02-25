@@ -9,6 +9,10 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+# Documentation files (may contain sensitive data)
+*_Project_Documentation.py
+*.pdf
+
 # IDE and Editor
 .vscode/
 .idea/

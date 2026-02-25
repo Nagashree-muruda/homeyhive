@@ -1023,31 +1023,31 @@ def create_homyhive_documentation():
     story.append(Paragraph("8.1 Environment Variables", subheading_style))
     env_code = """
     # Database Configuration
-    ATLASDB_URL=mongodb+srv://username:password@cluster.mongodb.net/homyhive
+    ATLASDB_URL=<your-mongodb-atlas-connection-string>
 
     # Session Security
-    SECRET=your-super-secret-session-key
+    SECRET=<your-session-secret-key>
 
     # Cloudinary Configuration (Image Storage)
-    CLOUD_NAME=your-cloudinary-cloud-name
-    CLOUD_API_KEY=your-cloudinary-api-key
-    CLOUD_API_SECRET=your-cloudinary-api-secret
+    CLOUD_NAME=<your-cloudinary-cloud-name>
+    CLOUD_API_KEY=<your-cloudinary-api-key>
+    CLOUD_API_SECRET=<your-cloudinary-api-secret>
 
     # Mapbox Configuration
-    MAP_TOKEN=your-mapbox-access-token
+    MAP_TOKEN=<your-mapbox-access-token>
 
     # OAuth Configuration
-    GOOGLE_CLIENT_ID=your-google-oauth-client-id
-    GOOGLE_CLIENT_SECRET=your-google-oauth-client-secret
-    FACEBOOK_APP_ID=your-facebook-app-id
-    FACEBOOK_APP_SECRET=your-facebook-app-secret
+    GOOGLE_CLIENT_ID=<your-google-oauth-client-id>
+    GOOGLE_CLIENT_SECRET=<your-google-oauth-client-secret>
+    FACEBOOK_APP_ID=<your-facebook-app-id>
+    FACEBOOK_APP_SECRET=<your-facebook-app-secret>
 
     # Email Configuration
-    GMAIL_USER=your-gmail-username
-    GMAIL_APP_PASSWORD=your-gmail-app-password
+    GMAIL_USER=<your-gmail-username>
+    GMAIL_APP_PASSWORD=<your-gmail-app-password>
 
     # SMS Configuration (Twilio)
-    TWILIO_ACCOUNT_SID=your-twilio-account-sid
+    TWILIO_ACCOUNT_SID=<your-twilio-account-sid>
     TWILIO_AUTH_TOKEN=your-twilio-auth-token
     TWILIO_PHONE_NUMBER=your-twilio-phone-number
     """
